@@ -4,13 +4,7 @@ Verify bird calls and songs
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Our current audio machine learning model analyses each audio recording that is uploaded from the Bird Monitors.  The model assesses the presence or otherwose of specific bird species (currently just Morepork/Ruru) in a sliding 3 second window across each recording.
 
-A few resources to get you started if this is your first Flutter project:
+This app (the Bird Verifier) allows users to listen to just those 3 second windows, and give feedback to The Cacophony server on whether they agree with the model's predictions.  This will provide valuable data for further improvements to the model.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
